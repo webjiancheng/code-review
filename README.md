@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# React Text Demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+本项目基于 [Create React App](https://github.com/facebook/create-react-app) 搭建，演示了 React 路由和基础用法。
+https://my-first-worker.nevermoyan.workers.dev/api/greet 
+## 目录结构
 
-## Available Scripts
+```
+├── public/           # 静态资源目录
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   └── manifest.json
+├── src/              # 源码目录
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json      # 项目依赖和配置
+└── README.md         # 项目说明
+```
 
-In the project directory, you can run:
+## 常用命令
 
-### `npm start`
+- 启动开发环境：
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  ```sh
+  npm start
+  ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 运行测试：
 
-### `npm test`
+  ```sh
+  npm test
+  ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 打包生产环境：
 
-### `npm run build`
+  ```sh
+  npm run build
+  ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 弹出配置（谨慎操作，不可逆）：
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ```sh
+  npm run eject
+  ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 主要依赖
 
-### `npm run eject`
+- react
+- react-dom
+- react-router-dom
+- react-scripts
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 说明
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 推荐使用最新版 Chrome 浏览器进行开发和调试。
+- 如需了解更多用法，请参考 [Create React App 官方文档](https://facebook.github.io/create-react-app/docs/getting-started)。
+后端调用测试接口 workers  https://dash.cloudflare.com/
+https://my-first-worker.nevermoyan.workers.dev/api/greet 
